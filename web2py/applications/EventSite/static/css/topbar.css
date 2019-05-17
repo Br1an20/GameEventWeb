@@ -1,0 +1,94 @@
+/* TOPBAR CSS, will be included in every page.... */
+
+
+/*black & white copied from stupid.css*/
+.black {
+	background-color:#111111;
+	color:white
+}
+
+.white{
+	background-color:#fff;
+	color:#111111;
+	-webkit-box-shadow:inset 0px 0px 0px 1px #ddd;
+	-moz-box-shadow:inset 0px 0px 0px 1px #ddd;
+	box-shadow:inset 0px 0px 0px 1px #ddd
+}
+
+.lowheight {
+	max-height: 50px;
+}
+
+
+/*Search Bar*/
+
+.top-container {
+	min-height: 5vh;
+	padding:5px;
+
+	/*flexbox*/
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+
+}
+
+.search-item {
+	height:3vh;
+	line-height:3vh; /*vertical center text*/
+	display: inline-block;
+	/*margin:5px;*/
+}
+
+.bar-home, .bar-create, .bar-profile, .search-btn {
+	border:1px solid white;
+	background-color:lightgray;
+	color:black;
+
+	/*font properties*/
+	font-family:Helvetica;
+	text-transform: uppercase;
+	text-align:center;
+}
+
+
+.bar-home {
+	flex-basis:10%;
+}
+
+.bar-create {
+	/*flex-basis:12%;*/
+
+	/*makes a circle*/
+	border-radius: 50%;
+	width:3vh;
+}
+
+.bar-profile {
+	/*flex-basis:8%;*/
+
+	/*makes a circle*/
+	border-radius: 50%;
+	width:3vh;
+}
+
+.bar-search {
+	flex-basis: 70%;
+}
+
+#vue-search-input {
+	height:3vh;
+	line-height:3vh;
+	font-size:3vh;
+	width:100%;
+}
+
+
+/*Overrides :<*/
+
+i.bar-icon, .search-item a {
+	color:black;
+	line-height:3vh;
+	text-decoration:none;
+
+}
