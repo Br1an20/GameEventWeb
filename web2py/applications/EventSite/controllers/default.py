@@ -11,6 +11,9 @@
 
 def index():
     return dict()
+
+def createevent():
+    return dict()
     
 
 def user():
