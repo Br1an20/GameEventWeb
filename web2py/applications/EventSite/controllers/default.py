@@ -10,9 +10,46 @@
 
 
 def index():
+    """
+    example action using the internationalization operator T and flash
+    rendered by views/default/index.html or views/generic.html
+
+    if you need a simple wiki simply replace the two lines below with:
+    return auth.wiki()
+    """
+    response.flash = T("CMPM 131 test site")
+    # redirect(URL('default','home'))
+    return dict(message=T('Welcome to web2py!'))
+
+def home():
+    response.flash = T("CMPM 131 test site")
+    query = db.events
+    links = []
+    grid = SQLFORM.grid(
+        query, 
+        field_id = db.events.id, # Useful, not mandatory.
+        # if you want to display certain fields
+        # fields = [], 
+
+        links = links,
+        # And now some generic defaults.
+        details=True,
+        create=True, editable=True, deletable=True,
+        csv=False, 
+        user_signature=True, # We don't need it as one cannot take actions directly from the form.
+    )
+    return dict(grid=grid)
+
+def profile():
+    return dict()
+
+def search():
     return dict()
 
 def createevent():
+    return dict()
+
+def view_event():
     return dict()
     
 
