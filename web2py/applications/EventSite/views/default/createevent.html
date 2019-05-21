@@ -1,3 +1,12 @@
+{{block head}}
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var id = "{{=request.vars.id}}";
+    var add_event_url = "{{=URL('api', 'add_event', user_signature=True)}}";
+    var is_logged_in = {{='false' if auth.user is None else 'true'}};
+</script>
+{{end}}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -77,7 +86,9 @@
 			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Location">
 		</div>
 
-		<button type="button" class="btn btn-secondary btn-lg">Create Event</button>
+		<div class="createevent">
+			<button type="button" class="btn btn-secondary btn-lg" id="add-event" v-on:click="add_event(Event._id)">Create Event</button>
+		</div>
 	</form>
 
 

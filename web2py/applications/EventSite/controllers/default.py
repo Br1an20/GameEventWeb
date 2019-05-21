@@ -46,7 +46,10 @@ def profile():
 def search():
     return dict()
 
+@auth.requires_login()
 def createevent():
+    if request.vars.id:
+        session.id=request.vars.id
     return dict()
 
 def view_event():
