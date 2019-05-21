@@ -7,15 +7,219 @@
 </script>
 {{end}}
 
-<div class="main_content">
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <div id="vue-div" class="display:none">
-        <!-- Your code goes here.  Remember to call $("#vue-div").show() once you get the data for the first time. -->
-        Hello.
-    </div>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <a href="createevent">Create Event</a>
+        <title>Hello, world!</title>
+    </head>
+    <body>
+        <div class="main_content">
+            <br>
+            <div class ="container">
+                <div class="row">
+                    <div class="tab">
+                        <button class="tablinks" onclick="openCity(event, 'Sunday')">Sunday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Monday')">Monday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Tuesday')">Tuesday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Wednesday')">Wednesday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Thursday')">Thursday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Friday')">Friday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Saturday')">Saturday</button>
 
-</div>
+                        
+                    </div>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">More</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home">Calendar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Sunday" class="tabcontent">
+                <h3>Sunday</h3>
+                <p>Events for Sunday.</p>
+            </div>
+            
+            <div id="Monday" class="tabcontent">
+                <h3>Monday</h3>
+                <p>Events for Monday.</p>
+            </div>
+            
+            <div id="Tuesday" class="tabcontent">
+                <h3>Tuesday</h3>
+                <p>Events for Tuesday.</p>
+            </div>
+            
+            <div id="Wednesday" class="tabcontent">
+                <h3>Wednesday</h3>
+                <p>Events for Wednesday.</p>
+            </div>
 
-<script src="{{=URL('static', 'js/default_index.js')}}"></script>
+            <div id="Thursday" class="tabcontent">
+                <h3>Thursday</h3>
+                <p>Events for Thursday.</p>
+            </div>
+
+            <div id="Friday" class="tabcontent">
+                <h3>Friday</h3>
+                <p>Events for Friday.</p>
+            </div>
+
+            <div id="Saturday" class="tabcontent">
+                <h3>Saturday</h3>
+                <p>Events for Saturday.</p>
+            </div>
+
+            <a href="createevent">Create Event</a>
+
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{{=URL('static', 'js/default_index.js')}}"></script>
+        <script>
+            function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+
+            /* When the user clicks on the button, 
+            toggle between hiding and showing the dropdown content */
+            function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                    for (i = 0; i < dropdowns.length; i++) {
+                        var openDropdown = dropdowns[i];
+                        if (openDropdown.classList.contains('show')) {
+                            openDropdown.classList.remove('show');
+                        }
+                    }
+                }
+            }
+
+        </script>
+    </body>
+
+</html>
+
+<style>
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        /* border: 1px solid #ccc;
+        background-color: #f1f1f1; */
+        border-radius: 8px;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: #f1f1f1;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+
+    /* Fade in tabs */
+    @-webkit-keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    .dropbtn {
+        background-color: #f1f1f1;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown a:hover {background-color: #ddd;}
+
+    .show {display: block;}
+</style>
+
