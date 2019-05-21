@@ -1908,3 +1908,16 @@
 127.0.0.1, 2019-05-20 16:52:54, GET, /favicon.ico, HTTP/1.1, 400, 0.000852
 127.0.0.1, 2019-05-20 16:53:01, GET, /EventSite/default/createevent, HTTP/1.1, 200, 0.018505
 127.0.0.1, 2019-05-20 16:53:01, GET, /favicon.ico, HTTP/1.1, 400, 0.000319
+127.0.0.1, 2019-05-20 17:22:18, GET, /favicon.ico, HTTP/1.1, 400, 0.000481
+127.0.0.1, 2019-05-20 17:32:19, GET, /EventSite/default/createevent, HTTP/1.1, 200, 0.026154
+127.0.0.1, 2019-05-20 17:32:19, GET, /favicon.ico, HTTP/1.1, 400, 0.000280
+127.0.0.1, 2019-05-20 17:32:20, GET, /EventSite/default/index, HTTP/1.1, 200, 0.019364
+127.0.0.1, 2019-05-20 17:32:20, GET, /favicon.ico, HTTP/1.1, 400, 0.000514
+127.0.0.1, 2019-05-20 17:33:37, GET, /EventSite/default/index, HTTP/1.1, 200, 0.028516
+127.0.0.1, 2019-05-20 17:33:37, GET, /favicon.ico, HTTP/1.1, 400, 0.000430
+127.0.0.1, 2019-05-20 17:33:39, GET, /EventSite/default/createevent, HTTP/1.1, 200, 0.011019
+127.0.0.1, 2019-05-20 17:33:39, GET, /favicon.ico, HTTP/1.1, 400, 0.000291
+127.0.0.1, 2019-05-20 17:33:49, GET, /EventSite/default/index, HTTP/1.1, 200, 0.035992
+127.0.0.1, 2019-05-20 17:33:49, GET, /favicon.ico, HTTP/1.1, 400, 0.000705
+127.0.0.1, 2019-05-20 17:33:51, GET, /EventSite/default/createevent, HTTP/1.1, 200, 0.012332
+127.0.0.1, 2019-05-20 17:33:51, GET, /favicon.ico, HTTP/1.1, 400, 0.000352
