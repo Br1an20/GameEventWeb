@@ -11,10 +11,15 @@
     <title>Create Event</title>
   </head>
 
-  <body>
-	<h1>Create Event</h1>
+  <div class="main_content">
+	<nav class="navbar navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Topbar</a>
+		<h3 class="title">Create Event</h3>	
+		<button type="button" class="btn btn-light">Cancel</button>	
+	</nav>
 	
 	<form>
+		<br>
 		<div class="form-group">
 		  <label for="exampleFormControlInput1">Event Name:</label>
 		  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Event Name">
@@ -34,6 +39,19 @@
 			<label class="form-check-label" for="inlineCheckbox2">No</label>
 		</div>
 
+		<div class="form-group row">
+			<label for="datetime-input" class="col-2 col-form-label">Date and time</label>
+			<div class="col-10">
+				<input class="form-control" type="datetime-local" value="2019-05-21T13:45:00" id="datetime-input">
+			</div>
+		</div>
+
+
+		<div class="form-group">
+			<label for="exampleFormControlInput1">Max number of guests:</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="enter a number or unlimited">
+		</div>
+
 		<div class="form-group">
 		  <label for="exampleFormControlTextarea1">Description:</label>
 		  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
@@ -48,11 +66,15 @@
 				aria-describedby="inputGroupFileAddon01">
 				<label class="custom-file-label" for="inputGroupFile01">Choose file</label>
 			</div>
-		</div>
+		</div><br>
 
 		<div class="form-group">
 			<label for="exampleFormControlTextarea1">Tags:</label>
-			<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+			<textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="exampleFormControlInput1">Location:</label>
+			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Location">
 		</div>
 
 		<button type="button" class="btn btn-secondary btn-lg">Create Event</button>
@@ -66,13 +88,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-</body>
+</div>
 </html>
 
 
 <style>
-body{
-	margin: 20px;
+.main_content{
+	padding: 20px;
 	/* background-image: url("{{=URL('static','images/bricks.jpg')}}"); */
 	background-color: #e3e1df;
 	background-position: center center;
@@ -80,6 +102,10 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 	height: 1200px;
+}
+
+.title{
+	color:white;
 }
 
 </style>
