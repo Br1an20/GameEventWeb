@@ -25,6 +25,12 @@ def home():
     response.flash = T("CMPM 131 test site")
     query = db.events
     links = []
+
+    links.append(
+        dict(header='', body = lambda row : A('view event', _class='btn', 
+            _href=URL('default', 'viewevent', args=[row.id], user_signature=True)))
+        )
+
     grid = SQLFORM.grid(
         query, 
         field_id = db.events.id, # Useful, not mandatory.
@@ -49,8 +55,13 @@ def search():
 def createevent():
     return dict()
 
-def view_event():
-    return dict()
+def viewevent():
+    p = db.events(request.args(0))
+    if p is None:
+        redirect(URL('default', 'home'))
+    # rows = db(db.events).select()
+    logger.info(p)
+    return dict(p=p,)
     
 
 def user():
