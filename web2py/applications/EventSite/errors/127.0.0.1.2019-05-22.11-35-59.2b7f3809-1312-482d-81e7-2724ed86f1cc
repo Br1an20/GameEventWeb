@@ -1,0 +1,1231 @@
+(dp1
+S'output'
+p2
+S''
+sS'layer'
+p3
+S'Framework'
+p4
+sS'code'
+p5
+S''
+sS'snapshot'
+p6
+(dp7
+S'exception'
+p8
+(dp9
+S'__getslice__'
+p10
+S"<method-wrapper '__getslice__' of exceptions.NameError object>"
+p11
+sS'__str__'
+p12
+S"<method-wrapper '__str__' of exceptions.NameError object>"
+p13
+sS'__reduce__'
+p14
+S'<built-in method __reduce__ of exceptions.NameError object>'
+p15
+sS'__dict__'
+p16
+S'{}'
+p17
+sS'message'
+p18
+S'"name \'topbar\' is not defined"'
+p19
+sS'__sizeof__'
+p20
+S'<built-in method __sizeof__ of exceptions.NameError object>'
+p21
+sS'__init__'
+p22
+S"<method-wrapper '__init__' of exceptions.NameError object>"
+p23
+sS'__setattr__'
+p24
+S"<method-wrapper '__setattr__' of exceptions.NameError object>"
+p25
+sS'__reduce_ex__'
+p26
+S'<built-in method __reduce_ex__ of exceptions.NameError object>'
+p27
+sS'__new__'
+p28
+S'<built-in method __new__ of type object>'
+p29
+sS'__format__'
+p30
+S'<built-in method __format__ of exceptions.NameError object>'
+p31
+sS'__class__'
+p32
+S"<type 'exceptions.NameError'>"
+p33
+sS'__doc__'
+p34
+S"'Name not found globally.'"
+p35
+sS'__getitem__'
+p36
+S"<method-wrapper '__getitem__' of exceptions.NameError object>"
+p37
+sS'__setstate__'
+p38
+S'<built-in method __setstate__ of exceptions.NameError object>'
+p39
+sS'__getattribute__'
+p40
+S"<method-wrapper '__getattribute__' of exceptions.NameError object>"
+p41
+sS'args'
+p42
+S'("name \'topbar\' is not defined",)'
+p43
+sS'__subclasshook__'
+p44
+S'<built-in method __subclasshook__ of type object>'
+p45
+sS'__unicode__'
+p46
+S'<built-in method __unicode__ of exceptions.NameError object>'
+p47
+sS'__delattr__'
+p48
+S"<method-wrapper '__delattr__' of exceptions.NameError object>"
+p49
+sS'__repr__'
+p50
+S"<method-wrapper '__repr__' of exceptions.NameError object>"
+p51
+sS'__hash__'
+p52
+S"<method-wrapper '__hash__' of exceptions.NameError object>"
+p53
+ssS'evalue'
+p54
+S"name 'topbar' is not defined"
+p55
+sS'request'
+p56
+cgluon.html
+XML_unpickle
+p57
+(S's\rl\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>EventSite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-ed0d60b7-6b95-4a4e-afde-9a04010b7e3d<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_bykr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-ec28aab6-4eef-4a2a-9fb0-c758cfa4ef5a<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_cmpm131</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-a06aec9a-baa8-4fd5-95e9-1b75306822d1<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_eventsite</td><td style="vertical-align:top;">:</td><td><div>7:bc8eda4f-855e-46d0-8727-5720b5efb2fa<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-3f340365-a92e-42b6-8205-24e991bb40f2<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_bykr=127.0.0.1-ec28aab6-4eef-4a2a-9fb0-c758cfa4ef5a; session_id_welcome=127.0.0.1-3f340365-a92e-42b6-8205-24e991bb40f2; session_id_cmpm131=127.0.0.1-a06aec9a-baa8-4fd5-95e9-1b75306822d1; session_id_admin=127.0.0.1-ed0d60b7-6b95-4a4e-afde-9a04010b7e3d; session_id_eventsite=&quot;7:bc8eda4f-855e-46d0-8727-5720b5efb2fa&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/EventSite/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/EventSite/default/viewevent</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>62865</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>eduroam-169-233-156-34.ucsc.edu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/curtis/Documents/web2py131/web2py/applications/eventsite&#x27;, &#x27;/Users/curtis/Documents/web2py131/web2py/applications/admin&#x27;, &#x27;/Users/curtis/Documents/web2py131/web2py/applications/EventSite&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x1066a0710: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;eduroam-169-233-156-34.ucsc.edu&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/curtis/Documents/web2py131/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;eventsite&#x27;, &#x27;EventSite&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>en-US,en;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_bykr=127.0.0.1-ec28aab6-4eef-4a2a-9fb0-c758cfa4ef5a; session_id_welcome=127.0.0.1-3f340365-a92e-42b6-8205-24e991bb40f2; session_id_cmpm131=127.0.0.1-a06aec9a-baa8-4fd5-95e9-1b75306822d1; session_id_admin=127.0.0.1-ed0d60b7-6b95-4a4e-afde-9a04010b7e3d; session_id_eventsite=&quot;7:bc8eda4f-855e-46d0-8727-5720b5efb2fa&quot;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/EventSite/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>169.233.156.34</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>eduroam-169-233-156-34.ucsc.edu</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/EventSite/default/viewevent</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>62865</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/EventSite/default/viewevent</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>eduroam-169-233-156-34.ucsc.edu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x1056801e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1066684c8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10c3ac750&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x1056801e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x1066684c8&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10c3ac750&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py/applications/EventSite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>viewevent</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/curtis/Documents/web2py131/web2py/applications/eventsite&#x27;, &#x27;/Users/curtis/Documents/web2py131/web2py/applications/admin&#x27;, &#x27;/Users/curtis/Documents/web2py131/web2py/applications/EventSite&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x1066a0710: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;eduroam-169-233-156-34.ucsc.edu&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/curtis/Documents/web2py131/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;eventsite&#x27;, &#x27;EventSite&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/curtis/Documents/web2py131/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>::1</div></td></tr><tr><td><div>169.233.156.34</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>127.0.0.1</div></td></tr><tr><td><div>eduroam-169-233-156-34.ucsc.edu</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 5, 22, 11, 35, 59, 682628)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/EventSite/default/viewevent</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 5, 22, 18, 35, 59, 682638)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x10ccdf6d0&gt;</div></td></tr></table></div>'
+tRp58
+sS'frames'
+p59
+(lp60
+(dp61
+S'file'
+p62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/main.py'
+p63
+sS'dump'
+p64
+(dp65
+S'global serve_controller'
+p66
+S'<function serve_controller>'
+p67
+sS'session'
+p68
+S"<Storage {'_auth_next': None, 'flash': None, 'au...gin]': ['77ba646e-caac-4fae-884e-d1875a16c226']}>"
+p69
+sS'request'
+p70
+S"<Storage {'function': 'viewevent', 'cookies': <S...False, 'is_https': False, 'client': '127.0.0.1'}>"
+p71
+sS'response'
+p72
+S"<Storage {'body': <cStringIO.StringO object at 0...ession_data)>, 'view': 'default/viewevent.html'}>"
+p73
+ssS'lnum'
+p74
+I444
+sS'lines'
+p75
+(dp76
+I448
+S'                if static_file:'
+p77
+sI439
+S'                if global_settings.debugging and app != "admin":'
+p78
+sI440
+S'                    import gluon.debug'
+p79
+sI441
+S'                    # activate the debugger'
+p80
+sI442
+S'                    gluon.debug.dbg.do_debug(mainpyfile=request.folder)'
+p81
+sI443
+S''
+sI444
+S'                serve_controller(request, response, session)'
+p82
+sI445
+S'            except HTTP as hr:'
+p83
+sI446
+S'                http_response = hr'
+p84
+sI447
+S''
+ssS'call'
+p85
+S'(environ={\'HTTP_ACCEPT\': \'text/html,application/xhtml+xml,application/xml;...e/apng,*/*;q=0.8,application/signed-exchange;v=b3\', \'HTTP_ACCEPT_ENCODING\': \'gzip, deflate, br\', \'HTTP_ACCEPT_LANGUAGE\': \'en-US,en;q=0.9\', \'HTTP_CONNECTION\': \'keep-alive\', \'HTTP_COOKIE\': \'session_id_bykr=127.0.0.1-ec28aab6-4eef-4a2a-9fb...ventsite="7:bc8eda4f-855e-46d0-8727-5720b5efb2fa"\', \'HTTP_HOST\': \'127.0.0.1:8000\', \'HTTP_REFERER\': \'http://127.0.0.1:8000/EventSite/default/index\', \'HTTP_UPGRADE_INSECURE_REQUESTS\': \'1\', \'HTTP_USER_AGENT\': \'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) ...L, like Gecko) Chrome/74.0.3729.131 Safari/537.36\', \'PATH_INFO\': \'/EventSite/default/viewevent\', ...}, responder=<function responder2>)'
+p86
+sS'func'
+p87
+S'wsgibase'
+p88
+sa(dp89
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/main.py'
+p90
+sg64
+(dp91
+S'response._view_environment'
+p92
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p93
+sS'page'
+p94
+g17
+sS'global run_view_in'
+p95
+S'<function run_view_in>'
+p96
+sS'response'
+p97
+S"<Storage {'body': <cStringIO.StringO object at 0...ession_data)>, 'view': 'default/viewevent.html'}>"
+p98
+ssg74
+I183
+sg75
+(dp99
+I178
+S'    response._view_environment = copy.copy(environment)'
+p100
+sI179
+S'    page = run_controller_in(request.controller, request.function, environment)'
+p101
+sI180
+S'    if isinstance(page, dict):'
+p102
+sI181
+S'        response._vars = page'
+p103
+sI182
+S'        response._view_environment.update(page)'
+p104
+sI183
+S'        page = run_view_in(response._view_environment)'
+p105
+sI184
+S''
+sI185
+S'    if not request.env.web2py_disable_garbage_collect:'
+p106
+sI186
+S'        # logic to garbage collect after exec, not always, once every 100 requests'
+p107
+sI187
+S'        global requests'
+p108
+ssg85
+S"(request=<Storage {'function': 'viewevent', 'cookies': <S...False, 'is_https': False, 'client': '127.0.0.1'}>, response=<Storage {'body': <cStringIO.StringO object at 0...ession_data)>, 'view': 'default/viewevent.html'}>, session=<Storage {'_auth_next': None, 'flash': None, 'au...gin]': ['77ba646e-caac-4fae-884e-d1875a16c226']}>)"
+p109
+sg87
+S'serve_controller'
+p110
+sa(dp111
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/compileapp.py'
+p112
+sg64
+(dp113
+S'environment'
+p114
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p115
+sS'context'
+p116
+S'undefined'
+p117
+ssg74
+I731
+sg75
+(dp118
+I726
+S'                           rewrite.THREAD_LOCAL.routes.error_message % badv,'
+p119
+sI727
+S'                           web2py_error=badv)'
+p120
+sI728
+S'            # Parse template'
+p121
+sI729
+S'            scode = parse_template(view,'
+p122
+sI730
+S"                                   pjoin(folder, 'views'),"
+p123
+sI731
+S'                                   context=environment)'
+p124
+sI732
+S'            # Compile template'
+p125
+sI733
+S'            ccode = compile2(scode, filename)'
+p126
+sI734
+S'            layer = filename'
+p127
+sI735
+S'    restricted(ccode, environment, layer=layer, scode=scode)'
+p128
+ssg85
+S"(environment={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...})"
+p129
+sg87
+S'run_view_in'
+p130
+sa(dp131
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py'
+p132
+sg64
+(dp133
+S'builtinstr'
+p134
+S"<type 'str'>"
+p135
+sS'global TemplateParser'
+p136
+S"<class 'yatl.template.TemplateParser'>"
+p137
+sS'reader'
+p138
+S'<function file_reader>'
+p139
+sS'delimiters'
+p140
+S"('{{', '}}')"
+p141
+sS'context'
+p142
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p143
+sS'text'
+p144
+S"'{{extend topbar.html}}\\n\\n<html>\\n\\t<head>\\n\\t\\t<title>...ad>\\n\\t<body>\\n\\t\\t<p>view event</p>\\n\\t</body>\\n</html>\\n'"
+p145
+sS'path'
+p146
+S"'/Users/curtis/Documents/web2py131/web2py/applications/EventSite/views'"
+p147
+sS'lexers'
+p148
+g17
+ssg74
+I820
+sg75
+(dp149
+I815
+S'    # allow optional alternative delimiters'
+p150
+sI816
+S"    if hasattr(context.get('response', None), 'delimiters'):"
+p151
+sI817
+S"        if context['response'].delimiters is not None:"
+p152
+sI818
+S"            delimiters = context['response'].delimiters"
+p153
+sI819
+S'    # Use the file contents to get a parsed template and return it.'
+p154
+sI820
+S'    return str(TemplateParser(text, context=context, path=path, lexers=lexers, delimiters=delimiters, reader=reader))'
+p155
+sI821
+S''
+sI822
+S''
+sI823
+S'class DummyResponse():'
+p156
+sI824
+S'    def __init__(self):'
+p157
+ssg85
+S"(filename='default/viewevent.html', path='/Users/curtis/Documents/web2py131/web2py/applications/EventSite/views', context={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}, lexers={}, delimiters=('{{', '}}'), reader=<function file_reader>)"
+p158
+sg87
+S'parse_template'
+p159
+sa(dp160
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py'
+p161
+sg64
+(dp162
+S'text'
+p163
+S"'{{extend topbar.html}}\\n\\n<html>\\n\\t<head>\\n\\t\\t<title>...ad>\\n\\t<body>\\n\\t\\t<p>view event</p>\\n\\t</body>\\n</html>\\n'"
+p164
+sS'self'
+p165
+S'<yatl.template.TemplateParser object>'
+p166
+sS'self.parse'
+p167
+S'<bound method TemplateParser.parse of <yatl.template.TemplateParser object>>'
+p168
+ssg74
+I335
+sg75
+(dp169
+I330
+S'        # This variable will hold a reference to every block'
+p170
+sI331
+S'        # that we come across in this template'
+p171
+sI332
+S'        self.blocks = {}'
+p172
+sI333
+S''
+sI334
+S'        # Begin parsing.'
+p173
+sI335
+S'        self.parse(text)'
+p174
+sI336
+S''
+sI337
+S'    def to_string(self):'
+p175
+sI338
+S'        """'
+p176
+sI339
+S'        Returns the parsed template with correct indentation.'
+p177
+ssg85
+S"(self=<yatl.template.TemplateParser object>, text='{{extend topbar.html}}\\n\\n<html>\\n\\t<head>\\n\\t\\t<title>...ad>\\n\\t<body>\\n\\t\\t<p>view event</p>\\n\\t</body>\\n</html>\\n', name='ParserContainer', context={'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}, path='/Users/curtis/Documents/web2py131/web2py/applications/EventSite/views', writer='response.write', lexers={}, delimiters=('{{', '}}'), _super_nodes=[], reader=<function file_reader>)"
+p178
+sg87
+g22
+sa(dp179
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py'
+p180
+sg64
+(dp181
+S'self'
+p182
+S'<yatl.template.TemplateParser object>'
+p183
+sS'extend'
+p184
+S"'topbar.html'"
+p185
+sS'self.extend'
+p186
+S'<bound method TemplateParser.extend of <yatl.template.TemplateParser object>>'
+p187
+ssg74
+I782
+sg75
+(dp188
+I777
+S'            # Sometimes I miss C-Style pointers... I want my asterisk...'
+p189
+sI778
+S'            self.child_super_nodes.remove(node)'
+p190
+sI779
+S''
+sI780
+S'        # If we need to extend a template.'
+p191
+sI781
+S'        if extend:'
+p192
+sI782
+S'            self.extend(extend)'
+p193
+sI783
+S''
+sI784
+S'# We need this for integration with gluon'
+p194
+sI785
+S''
+sI786
+S'def parse_template(filename,'
+p195
+ssg85
+S"(self=<yatl.template.TemplateParser object>, text='{{extend topbar.html}}\\n\\n<html>\\n\\t<head>\\n\\t\\t<title>...ad>\\n\\t<body>\\n\\t\\t<p>view event</p>\\n\\t</body>\\n</html>\\n')"
+p196
+sg87
+S'parse'
+p197
+sa(dp198
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py'
+p199
+sg64
+(dp200
+S'text'
+p201
+g117
+sS'self'
+p202
+S'<yatl.template.TemplateParser object>'
+p203
+sS'self._get_file_text'
+p204
+S'<bound method TemplateParser._get_file_text of <yatl.template.TemplateParser object>>'
+p205
+sS'filename'
+p206
+S"'topbar.html'"
+p207
+sS'builtintuple'
+p208
+S"<type 'tuple'>"
+p209
+sS'self.delimiters'
+p210
+S"('{{', '}}')"
+p211
+ssg74
+I496
+sg75
+(dp212
+I491
+S'        """'
+p213
+sI492
+S'        Extends `filename`. Anything not declared in a block defined by the'
+p214
+sI493
+S'        parent will be placed in the parent templates `{{include}}` block.'
+p215
+sI494
+S'        """'
+p216
+sI495
+S'        # If no filename, create a dummy layout with only an {{include}}.'
+p217
+sI496
+S"        text = self._get_file_text(filename) or '%sinclude%s' % tuple(self.delimiters)"
+p218
+sI497
+S''
+sI498
+S'        # Create out nodes list to send to the parent'
+p219
+sI499
+S'        super_nodes = []'
+p220
+sI500
+S'        # We want to include any non-handled nodes.'
+p221
+ssg85
+S"(self=<yatl.template.TemplateParser object>, filename='topbar.html')"
+p222
+sg87
+S'extend'
+p223
+sa(dp224
+g62
+S'/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py'
+p225
+sg64
+(dp226
+S'builtineval'
+p227
+S'<built-in function eval>'
+p228
+sS'context'
+p229
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p230
+sS'filename'
+p231
+S"'topbar.html'"
+p232
+ssg74
+I455
+sg75
+(dp233
+I450
+S'        if current and "response" not in context:'
+p234
+sI451
+S'            context["response"] = getattr(current, \'response\', None)'
+p235
+sI452
+S''
+sI453
+S'        # Get the filename; filename looks like ``"template.html"``.'
+p236
+sI454
+S'        # We need to eval to remove the quotes and get the string type.'
+p237
+sI455
+S'        filename = eval(filename, context)'
+p238
+sI456
+S''
+sI457
+S'        # Allow empty filename for conditional extend and include directives.'
+p239
+sI458
+S'        if not filename:'
+p240
+sI459
+S"            return ''"
+p241
+ssg85
+S"(self=<yatl.template.TemplateParser object>, filename='topbar.html')"
+p242
+sg87
+S'_get_file_text'
+p243
+sa(dp244
+g62
+S'/Users/curtis/Documents/web2py131/web2py/<string>'
+p245
+sg64
+(dp246
+sg74
+I1
+sg75
+(dp247
+sg85
+S'()'
+p248
+sg87
+S'<module>'
+p249
+sasS'pyver'
+p250
+S'Python 2.7.10: /usr/bin/python (prefix: /System/Library/Frameworks/Python.framework/Versions/2.7)'
+p251
+sS'session'
+p252
+g57
+(S's\xe5\x08\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">auth</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">expiration</td><td style="vertical-align:top;">:</td><td><div>3600</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>a61ea95f-eb71-41ed-969f-f4e4fcd39f7f</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_visit</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 5, 22, 11, 35, 50, 516581)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remember_me</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">email</td><td style="vertical-align:top;">:</td><td><div>cualee@ucsc.edu</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">first_name</td><td style="vertical-align:top;">:</td><td><div>Curtis</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>1L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_name</td><td style="vertical-align:top;">:</td><td><div>Lee</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_id</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">reset_password_key</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user_groups</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">1</td><td style="vertical-align:top;">:</td><td><div>user_1</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr></table></div>'
+tRp253
+sS'etype'
+p254
+S"<type 'exceptions.NameError'>"
+p255
+sS'date'
+p256
+S'Wed May 22 11:35:59 2019'
+p257
+sS'response'
+p258
+g57
+(S's\xe7\x1e\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x10c763c00&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_eventsite</td><td style="vertical-align:top;">:</td><td><div>7:bc8eda4f-855e-46d0-8727-5720b5efb2fa<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap3_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">logo</td><td style="vertical-align:top;">:</td><td><div><a class="navbar-brand" href="http://www.web2py.com/" id="web2py-logo"><b>web<span>2</span>py</b>&trade;&nbsp;</a></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div><table><tr><td><div>Home</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/EventSite/default/index</div></td></tr><tr><td><div><table></table></div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>My Sites</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/admin/default/site</div></td></tr></table></div></td></tr><tr><td><div><table><tr><td><div>Profile</div></td></tr><tr><td><div>False</div></td></tr><tr><td><div>/EventSite/default/profile</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/viewevent/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_eventsite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_record_id</td><td style="vertical-align:top;">:</td><td><div>7L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_table</td><td style="vertical-align:top;">:</td><td><div>&lt;Table web2py_session_EventSite (id, locked, client_ip, created_datetime, modified_datetime, unique_key, session_data)&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_db_unique_key</td><td style="vertical-align:top;">:</td><td><div>bc8eda4f-855e-46d0-8727-5720b5efb2fa</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>051f417897a283d06e1de5c58b48755c</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>7:bc8eda4f-855e-46d0-8727-5720b5efb2fa</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_eventsite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>EventSite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>db</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">subtitle</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">title</td><td style="vertical-align:top;">:</td><td><div>Eventsite</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/viewevent.html</div></td></tr></table></div>'
+tRp259
+sS'locals'
+p260
+(dp261
+S'Service'
+p262
+S"<class 'gluon.tools.Service'>"
+p263
+sS'FORMAT'
+p264
+S"'%(asctime)s %(levelname)s %(process)s %(thread)s %(funcName)s():%(lineno)d %(message)s'"
+p265
+sS'PY2'
+p266
+S'True'
+p267
+sS'OBJECT'
+p268
+S"<class 'gluon.html.OBJECT'>"
+p269
+sS'SQLDB'
+p270
+S"<class 'pydal.base.DAL'>"
+p271
+sg252
+S"<Storage {'_auth_next': None, 'flash': None, 'au...gin]': ['77ba646e-caac-4fae-884e-d1875a16c226']}>"
+p272
+sS'LINK'
+p273
+S"<class 'gluon.html.LINK'>"
+p274
+sS'BR'
+p275
+S"<class 'gluon.html.BR'>"
+p276
+sS'local_import'
+p277
+S'<function <lambda>>'
+p278
+sS'OPTGROUP'
+p279
+S"<class 'gluon.html.OPTGROUP'>"
+p280
+sS'__package__'
+p281
+S'None'
+p282
+sS'PRE'
+p283
+S"<class 'gluon.html.PRE'>"
+p284
+sS'IS_INT_IN_RANGE'
+p285
+S"<class 'pydal.validators.IS_INT_IN_RANGE'>"
+p286
+sS'to_bytes'
+p287
+S'<function to_bytes>'
+p288
+sS'IS_LOWER'
+p289
+S"<class 'pydal.validators.IS_LOWER'>"
+p290
+sS'IS_STRONG'
+p291
+S"<class 'pydal.validators.IS_STRONG'>"
+p292
+sS'cache'
+p293
+S'<gluon.cache.Cache object>'
+p294
+sS'IS_IN_DB'
+p295
+S"<class 'pydal.validators.IS_IN_DB'>"
+p296
+sS'TAG'
+p297
+S'<gluon.html.__TAG__ object>'
+p298
+sS'SQLField'
+p299
+S"<class 'pydal.objects.Field'>"
+p300
+sS'mail'
+p301
+S'<gluon.tools.Mail object>'
+p302
+sS'logger'
+p303
+S'<logging.Logger object>'
+p304
+sS'BODY'
+p305
+S"<class 'gluon.html.BODY'>"
+p306
+sS'IS_DATE_IN_RANGE'
+p307
+S"<class 'pydal.validators.IS_DATE_IN_RANGE'>"
+p308
+sS'IFRAME'
+p309
+S"<class 'gluon.html.IFRAME'>"
+p310
+sS'URL'
+p311
+S'<function URL>'
+p312
+sS'__file__'
+p313
+S"'/Users/curtis/Documents/web2py131/web2py/applications/EventSite/models/tables.py'"
+p314
+sS'db'
+p315
+S'<DAL uri="sqlite://storage.sqlite">'
+p316
+sS'auth'
+p317
+S'<gluon.tools.Auth object>'
+p318
+sS'P'
+S"<class 'gluon.html.P'>"
+p319
+sS'TFOOT'
+p320
+S"<class 'gluon.html.TFOOT'>"
+p321
+sS'iteritems'
+p322
+S'<function <lambda>>'
+p323
+sS'XHTML'
+p324
+S"<class 'gluon.html.XHTML'>"
+p325
+sS'datetime'
+p326
+S"<module 'datetime' from '/System/Library/Framewo...sions/2.7/lib/python2.7/lib-dynload/datetime.so'>"
+p327
+sS'ON'
+p328
+g267
+sS'OL'
+p329
+S"<class 'gluon.html.OL'>"
+p330
+sS'TEXTAREA'
+p331
+S"<class 'gluon.html.TEXTAREA'>"
+p332
+sS'MENU'
+p333
+S"<class 'gluon.html.MENU'>"
+p334
+sS'get_current_time'
+p335
+S'<function get_current_time>'
+p336
+sS'EM'
+p337
+S"<class 'gluon.html.EM'>"
+p338
+sS'CODE'
+p339
+S"<class 'gluon.html.CODE'>"
+p340
+sS'HTTP'
+p341
+S"<class 'gluon.http.HTTP'>"
+p342
+sS'HR'
+p343
+S"<class 'gluon.html.HR'>"
+p344
+sS'IS_DATETIME'
+p345
+S"<class 'pydal.validators.IS_DATETIME'>"
+p346
+sS'reduce'
+p347
+S'<built-in function reduce>'
+p348
+sS'STYLE'
+p349
+S"<class 'gluon.html.STYLE'>"
+p350
+sS'LABEL'
+p351
+S"<class 'gluon.html.LABEL'>"
+p352
+sS'CLEANUP'
+p353
+S"<class 'pydal.validators.CLEANUP'>"
+p354
+sS'plugins'
+p355
+S'<gluon.tools.PluginManager object>'
+p356
+sS'SELECT'
+p357
+S"<class 'gluon.html.SELECT'>"
+p358
+sS'CENTER'
+p359
+S"<class 'gluon.html.CENTER'>"
+p360
+sS'Auth'
+p361
+S"<class 'gluon.tools.Auth'>"
+p362
+sS'DEVELOPMENT_MENU'
+p363
+g267
+sS'__builtins__'
+p364
+S"{'ArithmeticError': <type 'exceptions.ArithmeticError'>, 'AssertionError': <type 'exceptions.AssertionError'>, 'AttributeError': <type 'exceptions.AttributeError'>, 'BaseException': <type 'exceptions.BaseException'>, 'BufferError': <type 'exceptions.BufferError'>, 'BytesWarning': <type 'exceptions.BytesWarning'>, 'DeprecationWarning': <type 'exceptions.DeprecationWarning'>, 'EOFError': <type 'exceptions.EOFError'>, 'Ellipsis': Ellipsis, 'EnvironmentError': <type 'exceptions.EnvironmentError'>, ...}"
+p365
+sS'HTML'
+p366
+S"<class 'gluon.html.HTML'>"
+p367
+sS'SQLFORM'
+p368
+S"<class 'gluon.sqlhtml.SQLFORM'>"
+p369
+sS'LOAD'
+p370
+S'<function LOAD>'
+p371
+sS'redirect'
+p372
+S'<function redirect>'
+p373
+sS'FIELDSET'
+p374
+S"<class 'gluon.html.FIELDSET'>"
+p375
+sS'IS_EQUAL_TO'
+p376
+S"<class 'pydal.validators.IS_EQUAL_TO'>"
+p377
+sS'embed64'
+p378
+S'<function embed64>'
+p379
+sS'IS_LIST_OF'
+p380
+S"<class 'pydal.validators.IS_LIST_OF'>"
+p381
+sS'INPUT'
+p382
+S"<class 'gluon.html.INPUT'>"
+p383
+sS'EMBED'
+p384
+S"<class 'gluon.html.EMBED'>"
+p385
+sS'_'
+S'<function _>'
+p386
+sS'FORM'
+p387
+S"<class 'gluon.html.FORM'>"
+p388
+sS'logging'
+p389
+S"<module 'logging' from '/System/Library/Framewor...Versions/2.7/lib/python2.7/logging/__init__.pyc'>"
+p390
+sS'myconf'
+p391
+S"{'forms': {'formstyle': 'bootstrap3_inline', 'se...': {'names': 'localhost:*, 127.0.0.1:*, *:*, *'}}"
+p392
+sS'H2'
+p393
+S"<class 'gluon.html.H2'>"
+p394
+sS'H3'
+p395
+S"<class 'gluon.html.H3'>"
+p396
+sS'AppConfig'
+p397
+S'<function AppConfig>'
+p398
+sS'H1'
+p399
+S"<class 'gluon.html.H1'>"
+p400
+sS'H6'
+p401
+S"<class 'gluon.html.H6'>"
+p402
+sS'H4'
+p403
+S"<class 'gluon.html.H4'>"
+p404
+sS'H5'
+p405
+S"<class 'gluon.html.H5'>"
+p406
+sS'UL'
+p407
+S"<class 'gluon.html.UL'>"
+p408
+sS'IS_UPPER'
+p409
+S"<class 'pydal.validators.IS_UPPER'>"
+p410
+sS'xmlescape'
+p411
+S'<function xmlescape>'
+p412
+sS'IS_TIME'
+p413
+S"<class 'pydal.validators.IS_TIME'>"
+p414
+sS'OPTION'
+p415
+S"<class 'gluon.html.OPTION'>"
+p416
+sS'TITLE'
+p417
+S"<class 'gluon.html.TITLE'>"
+p418
+sS'CRYPT'
+p419
+S"<class 'pydal.validators.CRYPT'>"
+p420
+sS'IS_EMPTY_OR'
+p421
+S"<class 'pydal.validators.IS_EMPTY_OR'>"
+p422
+sS'MARKMIN'
+p423
+S"<class 'gluon.html.MARKMIN'>"
+p424
+sS'__name__'
+p425
+S"'__restricted__'"
+p426
+sS'STRONG'
+p427
+S"<class 'gluon.html.STRONG'>"
+p428
+sS'COL'
+p429
+S"<class 'gluon.html.COL'>"
+p430
+sS'service'
+p431
+S'<gluon.tools.Service object>'
+p432
+sS'SCRIPT'
+p433
+S"<class 'gluon.html.SCRIPT'>"
+p434
+sS'TABLE'
+p435
+S"<class 'gluon.html.TABLE'>"
+p436
+sS'IS_IPV4'
+p437
+S"<class 'pydal.validators.IS_IPV4'>"
+p438
+sS'IS_LENGTH'
+p439
+S"<class 'pydal.validators.IS_LENGTH'>"
+p440
+sS'IS_IPV6'
+p441
+S"<class 'pydal.validators.IS_IPV6'>"
+p442
+sS'XML'
+p443
+S"<class 'gluon.html.XML'>"
+p444
+sS'B'
+S"<class 'gluon.html.B'>"
+p445
+sS'IMG'
+p446
+S"<class 'gluon.html.IMG'>"
+p447
+sS'SQLTABLE'
+p448
+S"<class 'gluon.sqlhtml.SQLTABLE'>"
+p449
+sS'IS_MATCH'
+p450
+S"<class 'pydal.validators.IS_MATCH'>"
+p451
+sS'IS_ALPHANUMERIC'
+p452
+S"<class 'pydal.validators.IS_ALPHANUMERIC'>"
+p453
+sS'get_user_email'
+p454
+S'<function get_user_email>'
+p455
+sS'SPAN'
+p456
+S"<class 'gluon.html.SPAN'>"
+p457
+sS'IS_JSON'
+p458
+S"<class 'pydal.validators.IS_JSON'>"
+p459
+sS'IS_IPADDRESS'
+p460
+S"<class 'pydal.validators.IS_IPADDRESS'>"
+p461
+sS'IS_SLUG'
+p462
+S"<class 'pydal.validators.IS_SLUG'>"
+p463
+sS'BEAUTIFY'
+p464
+S"<class 'gluon.html.BEAUTIFY'>"
+p465
+sS'META'
+p466
+S"<class 'gluon.html.META'>"
+p467
+sS'BUTTON'
+p468
+S"<class 'gluon.html.BUTTON'>"
+p469
+sS'IS_DATE'
+p470
+S"<class 'pydal.validators.IS_DATE'>"
+p471
+sS'IS_EMAIL'
+p472
+S"<class 'pydal.validators.IS_EMAIL'>"
+p473
+sS'IS_NOT_EMPTY'
+p474
+S"<class 'pydal.validators.IS_NOT_EMPTY'>"
+p475
+sS'xrange'
+p476
+S"<type 'xrange'>"
+p477
+sS'TBODY'
+p478
+S"<class 'gluon.html.TBODY'>"
+p479
+sS'CAT'
+p480
+S"<class 'gluon.html.CAT'>"
+p481
+sS'Field'
+p482
+S"<class 'pydal.objects.Field'>"
+p483
+sS'IS_LIST_OF_EMAILS'
+p484
+S"<class 'pydal.validators.IS_LIST_OF_EMAILS'>"
+p485
+sg56
+S"<Storage {'function': 'viewevent', 'cookies': <S...False, 'is_https': False, 'client': '127.0.0.1'}>"
+p486
+sS'DIV'
+p487
+S"<class 'gluon.html.DIV'>"
+p488
+sS'LEGEND'
+p489
+S"<class 'gluon.html.LEGEND'>"
+p490
+sS'to_native'
+p491
+S'<function to_native>'
+p492
+sS'COLGROUP'
+p493
+S"<class 'gluon.html.COLGROUP'>"
+p494
+sS'DAL'
+p495
+S"<class 'pydal.base.DAL'>"
+p496
+sS'ASSIGNJS'
+p497
+S'<function ASSIGNJS>'
+p498
+sS'TR'
+p499
+S"<class 'gluon.html.TR'>"
+p500
+sS'LI'
+p501
+S"<class 'gluon.html.LI'>"
+p502
+sS'TH'
+p503
+S"<class 'gluon.html.TH'>"
+p504
+sS'TD'
+p505
+S"<class 'gluon.html.TD'>"
+p506
+sS'PluginManager'
+p507
+S"<class 'gluon.tools.PluginManager'>"
+p508
+sS'IS_URL'
+p509
+S"<class 'pydal.validators.IS_URL'>"
+p510
+sS'A'
+S"<class 'gluon.html.A'>"
+p511
+sS'HEAD'
+p512
+S"<class 'gluon.html.HEAD'>"
+p513
+sS'IS_DATETIME_IN_RANGE'
+p514
+S"<class 'pydal.validators.IS_DATETIME_IN_RANGE'>"
+p515
+sS'IS_IMAGE'
+p516
+S"<class 'pydal.validators.IS_IMAGE'>"
+p517
+sS'I'
+S"<class 'gluon.html.I'>"
+p518
+sS'sys'
+p519
+S"<module 'sys' (built-in)>"
+p520
+sS'IS_NOT_IN_DB'
+p521
+S"<class 'pydal.validators.IS_NOT_IN_DB'>"
+p522
+sS'IS_FILE'
+p523
+S"<class 'pydal.validators.IS_FILE'>"
+p524
+sg258
+S"<Storage {'body': <cStringIO.StringO object at 0...ession_data)>, 'view': 'default/viewevent.html'}>"
+p525
+sS'THEAD'
+p526
+S"<class 'gluon.html.THEAD'>"
+p527
+sS'ANY_OF'
+p528
+S"<class 'pydal.validators.ANY_OF'>"
+p529
+sS'IS_NULL_OR'
+p530
+S"<class 'pydal.validators.IS_EMPTY_OR'>"
+p531
+sS'IS_FLOAT_IN_RANGE'
+p532
+S"<class 'pydal.validators.IS_FLOAT_IN_RANGE'>"
+p533
+sS'IS_EXPR'
+p534
+S"<class 'pydal.validators.IS_EXPR'>"
+p535
+sS'T'
+S'<gluon.languages.TranslatorFactory object>'
+p536
+sS'IS_IN_SET'
+p537
+S"<class 'pydal.validators.IS_IN_SET'>"
+p538
+sS'IS_UPLOAD_FILENAME'
+p539
+S"<class 'pydal.validators.IS_UPLOAD_FILENAME'>"
+p540
+sS'TT'
+p541
+S"<class 'gluon.html.TT'>"
+p542
+sS'IS_DECIMAL_IN_RANGE'
+p543
+S"<class 'pydal.validators.IS_DECIMAL_IN_RANGE'>"
+p544
+sssS'traceback'
+p545
+S'Traceback (most recent call last):\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/main.py", line 444, in wsgibase\n    serve_controller(request, response, session)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/main.py", line 183, in serve_controller\n    page = run_view_in(response._view_environment)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/compileapp.py", line 731, in run_view_in\n    context=environment)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py", line 820, in parse_template\n    return str(TemplateParser(text, context=context, path=path, lexers=lexers, delimiters=delimiters, reader=reader))\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py", line 335, in __init__\n    self.parse(text)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py", line 782, in parse\n    self.extend(extend)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py", line 496, in extend\n    text = self._get_file_text(filename) or \'%sinclude%s\' % tuple(self.delimiters)\n  File "/Users/curtis/Documents/web2py131/web2py/gluon/packages/yatl/yatl/template.py", line 455, in _get_file_text\n    filename = eval(filename, context)\n  File "<string>", line 1, in <module>\nNameError: name \'topbar\' is not defined\n'
+p546
+s.

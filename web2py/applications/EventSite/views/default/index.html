@@ -20,8 +20,45 @@
     </head>
     <body>
         <div class="main_content">
-            <br>
-            <div class ="container">
+        
+            <!-- Carousel  -->
+            <!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="height: 300px; overflow: hidden;">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="{{=URL('static','images/banner1.jpg')}}" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Find Game Events</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Host Game Events</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="..." alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p>Meet New People</p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div> -->
+            
+            <div class ="container" id="days">
                 <div class="row">
                     <div class="tab">
                         <button class="tablinks" onclick="openCity(event, 'Sunday')" id="defaultOpen">Sunday</button>
@@ -42,6 +79,7 @@
                     </div>
                 </div>
             </div>
+            
             <div id="Sunday" class="tabcontent">
                 <!-- <h3>Sunday</h3>
                 <p>Events for Sunday.</p> -->
@@ -52,7 +90,7 @@
                         <div class="card">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="card-img">
+                                    <div class="card-img" id="eventimg">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -62,7 +100,7 @@
                                         <p class="card-text">UCSC Namaste Lounge</p>
                                         <p class="card-text">May 21, 8:00pm</p>
                                         <p class="card-text">Smash Tournament, winner takes all, bring your own controllers.</p>
-                                        <a href="#" class="btn btn-secondary">Read More</a>
+                                        <a href="viewevent" class="btn btn-secondary">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -75,7 +113,8 @@
                         <div class="card">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <div class="card-img">
+                                    <div class="card-img" id="eventimg">
+                                            <img class="d-block w-100" src="{{=URL('static','images/cards.jpg')}}">
                                     </div>
                                 </div>
                                 <div class="col-md-6">
@@ -84,7 +123,7 @@
                                         <h4 class="card-title">Curabitur gravida vestibulum imperdiet.</h4>
                                         <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem. Integer sed mi quis nisl eleifend interdum.</p>
                                         <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem.</p>
-                                        <a href="#" class="btn btn-secondary">Read More</a>
+                                        <a href="viewevent" class="btn btn-secondary">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -181,11 +220,18 @@
         background-color:#c9c9c9;
     }
 
+    #days {
+        position: sticky; 
+        top:70; 
+        z-index:1;
+        background-color:#c9c9c9;
+    }
+
     /* Style the tab */
     .tab {
         overflow: hidden;
-        /* border: 1px solid #ccc;
-        background-color: #f1f1f1; */
+        /* border: 1px solid #ccc;*/
+        background-color: #c9c9c9; 
         border-radius: 8px;
     }
 
@@ -285,6 +331,12 @@
 
     .event-card {
         margin: 20px;
+    }
+
+    #eventimg {
+        overflow: hidden;
+        background-position: center center;
+        background-repeat: no-repeat;
     }
 </style>
 

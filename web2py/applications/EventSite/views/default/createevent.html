@@ -22,9 +22,9 @@
 
   <div class="main_content">
 	<nav class="navbar navbar-dark bg-dark">
-		<a class="navbar-brand" href="index">Topbar</a>
+		<a class="navbar-brand" href="index">Home</a>
 		<h3 class="title">Create Event</h3>	
-		<button type="button" class="btn btn-light">Cancel</button>	
+		<a href="index"><button type="button" class="btn btn-light">Cancel</button></a>	
 	</nav>
 	
 	<form>
@@ -87,7 +87,7 @@
 		</div>
 
 		<div class="createevent">
-			<button type="button" class="btn btn-secondary btn-lg" id="add-event" v-on:click="add_event(Event._id)">Create Event</button>
+			<a href="viewevent"><button type="button" class="btn btn-secondary btn-lg" id="add-event" v-on:click="add_event(Event._id)">Create Event</button></a>
 		</div>
 	</form>
 

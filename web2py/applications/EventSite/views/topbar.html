@@ -36,7 +36,7 @@
     {{pass}}
 
     <!-- the important part we care about, to put search fxns in-->
-    <header class="navbar navbar-dark bg-dark">
+    <header class="navbar navbar-dark bg-dark" id="nav">
       <!-- Home -->
       
       <div class="navbar-brand">
@@ -49,7 +49,9 @@
       
       <form class="form-inline">
         <input class="form-control mr-sm-2" type="search" placeholder="Search Text" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search <i class="bar-icon fa fa-search" style="color: #70cbff;"></i></button>
+        <a href="search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search <i class="bar-icon fa fa-search" style="color: #70cbff;"></i></button>
+        </a>
       </form>
       
       <!-- <div class="search-item search-btn">
@@ -109,13 +111,13 @@
       <!-- everything that extends this has its content in here -->
       {{include}}
     </main>
-    <footer class="black lowheight">
+    <!-- <footer class="black lowheight">
       <div class="container padded max900">
         <div class="fill">
           Copyright @ 2016
         </div>
       </div>
-    </footer>
+    </footer> -->
   </body>
   <script src="{{=URL('static','js/marked.min.js')}}"></script>
   <script src="{{=URL('static','js/vue.min.js')}}"></script>
@@ -129,6 +131,12 @@
 </html>
 
 <style>
+
+  #nav {
+    position: sticky;
+    top:0;
+    z-index: 1;
+  }
 
   .dropbtn {
       background-color: #f1f1f1;

@@ -53,7 +53,7 @@ def createevent():
         session.id=request.vars.id
     return dict()
 
-def view_event():
+def viewevent():
     return dict()
     
 
