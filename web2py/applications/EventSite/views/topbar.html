@@ -17,17 +17,19 @@
   </head>
 
   <body class="black">
-    {{if response.flash:}}
+    <!-- {{if response.flash:}}
     <div class="w2p_flash">
       {{=response.flash}}
-    </div>
+    </div> -->
     {{pass}}
 
     <!-- the important part we care about, to put search fxns in-->
     <header class="black padded top-container">
       <!-- Home -->
-      <div class="search-item bar-home"><a href="{{=URL('default', 'home')}}">
-        HOME <i class="bar-icon fa fa-home"></i></a>
+      <div class="search-item bar-home">
+        <a href="{{=URL('default', 'home')}}">
+          HOME <i class="bar-icon fa fa-home"></i>
+        </a>
       </div>
 
       <!-- Search Event -->

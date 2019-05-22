@@ -16,7 +16,7 @@
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        <title>Hello, world!</title>
+        <title>Event Site Home</title>
     </head>
     <body>
         <div class="main_content">
@@ -24,7 +24,7 @@
             <div class ="container">
                 <div class="row">
                     <div class="tab">
-                        <button class="tablinks" onclick="openCity(event, 'Sunday')">Sunday</button>
+                        <button class="tablinks" onclick="openCity(event, 'Sunday')" id="defaultOpen">Sunday</button>
                         <button class="tablinks" onclick="openCity(event, 'Monday')">Monday</button>
                         <button class="tablinks" onclick="openCity(event, 'Tuesday')">Tuesday</button>
                         <button class="tablinks" onclick="openCity(event, 'Wednesday')">Wednesday</button>
@@ -37,7 +37,7 @@
                     <div class="dropdown">
                         <button onclick="myFunction()" class="dropbtn">More</button>
                         <div id="myDropdown" class="dropdown-content">
-                            <a href="#home">Calendar</a>
+                            <a href="index">Calendar coming soon</a>
                         </div>
                     </div>
                 </div>
@@ -45,6 +45,51 @@
             <div id="Sunday" class="tabcontent">
                 <h3>Sunday</h3>
                 <p>Events for Sunday.</p>
+
+                <!-- Event Cards -->
+                <section>
+                    <div class="container">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Smash Ultimate Tournament</h4>
+                                        <p class="card-text">UCSC Namaste Lounge</p>
+                                        <p class="card-text">May 21, 8:00pm</p>
+                                        <p class="card-text">Smash Tournament, winner takes all, bring your own controllers.</p>
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="event-card">
+                    <div class="container">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="card-img">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-block">
+                                        <h4 class="card-title">Curabitur gravida vestibulum imperdiet.</h4>
+                                        <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem. Integer sed mi quis nisl eleifend interdum.</p>
+                                        <p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem.</p>
+                                        <a href="#" class="btn btn-primary">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
             </div>
             
             <div id="Monday" class="tabcontent">
@@ -77,7 +122,7 @@
                 <p>Events for Saturday.</p>
             </div>
 
-            <a href="createevent">Create Event</a>
+            
 
         </div>
 
@@ -88,6 +133,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
         <script src="{{=URL('static', 'js/default_index.js')}}"></script>
         <script>
+            document.getElementById("defaultOpen").click();
             function openCity(evt, cityName) {
             var i, tabcontent, tablinks;
             tabcontent = document.getElementsByClassName("tabcontent");
@@ -221,5 +267,16 @@
     .dropdown a:hover {background-color: #ddd;}
 
     .show {display: block;}
+
+    .card-img {
+        color: #fff;
+        height: 20rem;
+        background: url("{{=URL('static','images/smash.jpg')}}") center no-repeat;
+        background-size: cover;
+    }
+
+    .event-card {
+        margin: 20px;
+    }
 </style>
 
