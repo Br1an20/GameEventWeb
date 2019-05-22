@@ -40,6 +40,7 @@ def home():
     )
     return dict(grid=grid)
 
+@auth.requires_login()
 def profile():
     return dict()
 
