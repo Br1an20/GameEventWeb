@@ -10,6 +10,21 @@
 <!doctype html>
 <html lang="en">
   <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- <link href="{{=URL('static','css/stupid.css')}}" rel="stylesheet" type="text/css"/> -->
+		<link href="{{=URL('static','css/custom.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/calendar.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/web2py.css')}}" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="{{=URL('static', 'font-awesome-4.6.3/css/font-awesome.min.css')}}">
+
+		<!-- our stylesheets come last -->
+		<link href="{{=URL('static','css/myapp.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/topbar.css')}}" rel="stylesheet" type="text/css"/>
+		{{include "web2py_ajax.html"}}
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -18,14 +33,22 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Create Event</title>
-  </head>
+	</head>
+	
+<header class="navbar navbar-dark bg-dark" id="nav">
+	<div class="navbar-brand">
+		<a href="{{=URL('default', 'index')}}">
+			HOME <i class="bar-icon fa fa-home" style="color: #70cbff;"></i>
+		</a>
+	</div>
 
-  <div class="main_content">
-	<nav class="navbar navbar-dark bg-dark">
-		<a class="navbar-brand" href="index">Home</a>
-		<h3 class="title">Create Event</h3>	
-		<a href="index"><button type="button" class="btn btn-light">Cancel</button></a>	
-	</nav>
+	<h3 class="title">Create Event</h3>	
+
+	<a href="index"><button type="button" class="btn btn-outline-light btn-lg my-2 my-sm-0" style="color: #70cbff;">Cancel</button></a>	
+	
+</header>
+
+<div class="main_content">
 	
 	<form>
 		<br>
@@ -86,8 +109,9 @@
 			<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Location">
 		</div>
 
-		<div class="createevent">
-			<a href="viewevent"><button type="button" class="btn btn-secondary btn-lg" id="add-event" v-on:click="add_event(Event._id)">Create Event</button></a>
+		<div class="createevent">	
+	
+			<a href="viewevent"><button type="button" class="btn btn-dark btn-lg my-sm-0 my-2" style="color: #70cbff;" id="add-event" v-on:click="add_event(Event._id)">Create Event</button></a>
 		</div>
 	</form>
 
@@ -104,8 +128,16 @@
 
 
 <style>
+
+#nav {
+	margin: 0px !important;
+	top:0;
+	z-index: 1;
+}
+
 .main_content{
-	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 	/* background-image: url("{{=URL('static','images/bricks.jpg')}}"); */
 	background-color: #e3e1df;
 	background-position: center center;
@@ -117,6 +149,10 @@
 
 .title{
 	color:white;
+}
+
+.createevent {
+	color: #70cbff;
 }
 
 </style>
