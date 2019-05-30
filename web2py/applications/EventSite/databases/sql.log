@@ -64,3 +64,17 @@ CREATE TABLE "auth_cas"(
     "renew" CHAR(1)
 );
 success!
+timestamp: 2019-05-20T17:58:23.848472
+CREATE TABLE "events"(
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "event_name" CHAR(512),
+    "event_host" CHAR(512),
+    "event_max" INTEGER,
+    "event_rsvp" CHAR(1),
+    "event_datetime" TIMESTAMP,
+    "event_location" CHAR(512),
+    "event_description" TEXT,
+    "event_image" CHAR(512),
+    "event_tags" CHAR(512)
+);
+success!
