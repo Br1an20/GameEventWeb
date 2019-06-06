@@ -13,6 +13,7 @@ In this repository, you will find 3 files/folders.
 * EventsSiteFolder - A folder with all files extracted from the EventSiteFinal.w2p, you can inspect our specific code with this.
 * web2py - The web2py application (with all its fragments, remnants, and artefacts) that we used to build and run our application. We recommend using your own installation of web2py and installing EventSiteFinal.w2p.
 * EventSiteFinal.w2p - The 'Pack All' version of our website, this is the tarball/zip file that contains all our source code. The extracted contents are in the 'EventsSiteFolder' directory.
+* README.md - This file. Hi!
 
 ## Important Source Code Locations
 
