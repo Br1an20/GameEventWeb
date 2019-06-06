@@ -1,0 +1,259 @@
+{{extend 'topbar.html'}}
+
+{{block head}}
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var my_url = "{{=URL('api', 'my_method')}}";
+</script>
+{{end}}
+
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <title>Profile</title>
+    </head>
+
+	<body>
+		<div class="main_content">
+			<div class ="container" id="eventTabs">
+				<div class="row">
+					<div class="tab">
+						<button class="tablinks" onclick="openCity(event, 'Upcoming')" id="defaultOpen">Upcoming</button>
+						<button class="tablinks" onclick="openCity(event, 'Created')">Created</button>
+						<button class="tablinks" onclick="openCity(event, 'Past')">Past</button>
+					</div>
+				</div>
+			</div>
+
+			<div id="Upcoming" class="tabcontent">
+				<!-- <h3>Sunday</h3>
+				<p>Events for Sunday.</p> -->
+	
+				<!-- Event Cards -->
+				<section>
+					<div class="container">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-img" id="eventimg">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card-block">
+										<br>
+										<h4 class="card-title">Smash Ultimate Tournament</h4>
+										<p class="card-text">UCSC Namaste Lounge</p>
+										<p class="card-text">May 21, 8:00pm</p>
+										<p class="card-text">Smash Tournament, winner takes all, bring your own controllers.</p>
+										<a href="viewevent" class="btn btn-secondary">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+	
+				<section class="event-card">
+					<div class="container">
+						<div class="card">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="card-img" id="eventimg">
+											<img class="d-block w-100" src="{{=URL('static','images/cards.jpg')}}">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="card-block">
+										<br>
+										<h4 class="card-title">Curabitur gravida vestibulum imperdiet.</h4>
+										<p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem. Integer sed mi quis nisl eleifend interdum.</p>
+										<p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem.</p>
+										<a href="viewevent" class="btn btn-secondary">Read More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+	
+			</div>
+		
+		</div>
+
+		<div id="Upcoming" class="tabcontent">
+
+			<!-- Event Cards -->
+			<section>
+				<div class="container">
+					<div class="card">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card-img" id="eventimg">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card-block">
+									<br>
+									<h4 class="card-title">Smash Ultimate Tournament</h4>
+									<p class="card-text">UCSC Namaste Lounge</p>
+									<p class="card-text">May 21, 8:00pm</p>
+									<p class="card-text">Smash Tournament, winner takes all, bring your own controllers.</p>
+									<a href="viewevent" class="btn btn-secondary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="event-card">
+				<div class="container">
+					<div class="card">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="card-img" id="eventimg">
+										<img class="d-block w-100" src="{{=URL('static','images/cards.jpg')}}">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="card-block">
+									<br>
+									<h4 class="card-title">Curabitur gravida vestibulum imperdiet.</h4>
+									<p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem. Integer sed mi quis nisl eleifend interdum.</p>
+									<p class="card-text">Cras convallis ut turpis vitae facilisis. Morbi eu augue vel quam efficitur rhoncus vitae eget lectus. Cras augue ligula, aliquam ut enim ut, feugiat imperdiet sem.</p>
+									<a href="viewevent" class="btn btn-secondary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</div>
+
+		<div id="Created" class="tabcontent">
+			<h3>Your Created Events</h3>
+			<p>None</p>
+		</div>
+		
+		<div id="Past" class="tabcontent">
+			<h3>Past Events</h3>
+			<p>Events you have attended</p>
+		</div>
+
+
+		<!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{{=URL('static', 'js/default_index.js')}}"></script>
+        <script>
+            document.getElementById("defaultOpen").click();
+            function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+            }
+
+
+        </script>
+	</body>
+</html>
+
+<style>
+	.main_content {
+        background-color:#c9c9c9;
+    }
+
+    #eventTabs {
+        position: sticky; 
+        top:70; 
+        z-index:1;
+        background-color:#c9c9c9;
+    }
+
+    /* Style the tab */
+    .tab {
+        overflow: hidden;
+        /* border: 1px solid #ccc;*/
+        background-color: #c9c9c9; 
+        border-radius: 8px;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+        background-color: #f1f1f1;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+        margin: 5px;
+        border-radius: 8px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+        /* background-color: #ccc; */
+        background-color: #525864;
+        color: white;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        display: none;
+        padding: 6px 12px;
+        -webkit-animation: fadeEffect 1s;
+        animation: fadeEffect 1s;
+    }
+
+    /* Fade in tabs */
+    @-webkit-keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    @keyframes fadeEffect {
+        from {opacity: 0;}
+        to {opacity: 1;}
+	}
+	
+	.card-img {
+        color: #fff;
+        height: 20rem;
+        background: url("{{=URL('static','images/smash.jpg')}}") center no-repeat;
+        background-size: cover;
+    }
+
+    .event-card {
+        margin: 20px;
+    }
+
+    #eventimg {
+        overflow: hidden;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+</style>

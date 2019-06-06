@@ -1,0 +1,162 @@
+{{block head}}
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var id = "{{=request.vars.id}}";
+    var add_event_url = "{{=URL('api', 'add_event', user_signature=True)}}";
+    var is_logged_in = {{='false' if auth.user is None else 'true'}};
+</script>
+{{end}}
+
+<!doctype html>
+<html lang="en">
+  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<!-- <link href="{{=URL('static','css/stupid.css')}}" rel="stylesheet" type="text/css"/> -->
+		<link href="{{=URL('static','css/custom.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/calendar.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/web2py.css')}}" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="{{=URL('static', 'font-awesome-4.6.3/css/font-awesome.min.css')}}">
+
+		<!-- our stylesheets come last -->
+		<link href="{{=URL('static','css/myapp.css')}}" rel="stylesheet" type="text/css"/>
+		<link href="{{=URL('static','css/topbar.css')}}" rel="stylesheet" type="text/css"/>
+		{{include "web2py_ajax.html"}}
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Create Event</title>
+	</head>
+	
+<header class="navbar navbar-dark bg-dark" id="nav">
+	<div class="navbar-brand">
+		<a href="{{=URL('default', 'index')}}">
+			HOME <i class="bar-icon fa fa-home" style="color: #70cbff;"></i>
+		</a>
+	</div>
+
+	<h3 class="title">Create Event</h3>	
+
+	<a href="index"><button type="button" class="btn btn-outline-light btn-lg my-2 my-sm-0" style="color: #70cbff;">Cancel</button></a>	
+	
+</header>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<div class="main_content">
+	
+	<div id="vue-div">
+	<form>
+		<br>
+		<div class="form-group">
+		  <label for="eventnameid">Event Name:</label>
+		  <input type="email" class="form-control" id="eventnameid" placeholder="Event Name">
+		</div>
+		<div class="form-group">
+			<label for="eventhostid">Event Host:</label>
+			<input type="text" class="form-control" id="eventhostid" placeholder="Host">
+		</div>
+
+		<label>RSVP Required:</label>
+		<div class="form-check form-check-inline">
+			<input name="rsvpradio" class="form-check-input" type="radio" id="inlineCheckbox1" value="true" checked="true">
+			<label class="form-check-label" for="inlineCheckbox1">Yes</label>
+		</div>
+		<div class="form-check form-check-inline">
+			<input name="rsvpradio" class="form-check-input" type="radio" id="inlineCheckbox2" value="false">
+			<label class="form-check-label" for="inlineCheckbox2">No</label>
+		</div>
+
+		<div class="form-group row">
+			<label for="datetime-input" class="col-2 col-form-label">Date and time</label>
+			<div class="col-10">
+				<input class="form-control" type="datetime-local" value="2019-05-21T13:45:00" id="datetime-input">
+			</div>
+		</div>
+
+
+		<div class="form-group">
+			<label for="exampleFormControlInput1">Max number of guests:</label>
+			<input type="number" class="form-control" id="maxguestsid" placeholder="enter a number or unlimited">
+		</div>
+
+		<div class="form-group">
+		  <label for="exampleFormControlTextarea1">Description:</label>
+		  <textarea class="form-control" id="eventdescriptionid" rows="3"></textarea>
+		</div>
+
+		<div class="input-group">
+			<div class="input-group-prepend">
+				<span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+			</div>
+			<div class="custom-file">
+				<input type="file" class="custom-file-input" id="inputGroupFile01"
+				aria-describedby="inputGroupFileAddon01">
+				<label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+			</div>
+		</div><br>
+
+		<div class="form-group">
+			<label for="exampleFormControlTextarea1">Tags:</label>
+			<textarea class="form-control" id="tagsid" rows="2"></textarea>
+		</div>
+		<div class="form-group">
+			<label for="exampleFormControlInput1">Location:</label>
+			<input type="text" class="form-control" id="locationid" placeholder="Location">
+		</div>
+
+		<div class="createevent">	
+
+			<a href="index"><button type="button" class="btn btn-dark btn-lg my-sm-0 my-2" style="color: #70cbff;" id="add-event" v-on:click="add_event()">Create Event</button></a>
+		</div>
+	</form>
+	</div> <!-- End Vue Div -->
+
+
+</div>
+
+</html>
+
+<script src="{{=URL('static', 'js/create_event.js')}}"></script>
+
+<style>
+
+#nav {
+	margin: 0px !important;
+	top:0;
+	z-index: 1;
+}
+
+.main_content{
+	padding-left: 20px;
+	padding-right: 20px;
+	/* background-image: url("{{=URL('static','images/bricks.jpg')}}"); */
+	background-color: #e3e1df;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 1200px;
+}
+
+.title{
+	color:white;
+}
+
+.createevent {
+	color: #70cbff;
+}
+
+</style>
