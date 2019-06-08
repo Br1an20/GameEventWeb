@@ -6,6 +6,13 @@ This is the CMPM 131 Project done by 'Group 2' at UCSC by the following students
 Akash Bellippady, Curtis Lee, Xintong (Brian) Liu, and Viren Singh
 ```
 
+## Installation
+
+[Web2Py](http://www.web2py.com/)
+
+Use the EventSiteFinal.w2p file mentioned below in conjunction with the web2py framework. To do this, you should install web2py, launch the admin application (at /admin), go to 'install' on the right sidebar, and include our .w2p file to install this application. It should then show up under the list of applications, you can click its link, and go to our website.
+
+
 ## Files
 
 In this repository, you will find 3 files/folders.
